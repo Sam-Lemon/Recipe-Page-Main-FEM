@@ -1,31 +1,71 @@
+@import url(https://fonts.google.com/specimen/Young+Serif);
+@import url(https://fonts.google.com/specimen/Outfit);
+
 body {
     background-color:hsl(30, 54%, 90%);
     color: hsl(30, 10%, 34%);
-    font-size: 16px;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
 }
 
 .main-container {
     background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    border-radius: 20px;
+    margin: auto;
 }
 
-.content-container (
+.content-container {
+    margin: 20px;
+    padding-bottom: 20px;
+}
 
-)
+img {
+    width: 560px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 
 .page-title {
     color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+p {
+    font-weight: 400;
 }
 
 h2 {
     color: hsl(332, 51%, 32%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+li {
+    padding: 5px;
 }
 
 .prep-time-container {
     background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .prep-time-title {
     color: hsl(332, 51%, 32%);
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid hsl(24, 5%, 18%);
+    padding: 10px 20px;
 }
 
 .dk-rasp {
