@@ -4,15 +4,19 @@
 body {
     background-color:hsl(30, 54%, 90%);
     color: hsl(30, 10%, 34%);
-    font-size: 15px;
     font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
 }
 
 .main-container {
     background-color: hsl(0, 0%, 100%);
     width: 600px;
     border-radius: 20px;
-    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .content-container {
@@ -23,7 +27,7 @@ body {
 img {
     width: 560px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .page-title {
@@ -34,17 +38,30 @@ img {
 
 p {
     font-weight: 400;
+    font-size: 16px
+}
+
+.easy-dish {
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 h2 {
-    color: hsl(332, 51%, 32%);
+    color: hsl(14, 45%, 36%);
     font-family: "Young Serif", serif;
     font-weight: 400;
+    text-shadow: 1px 1px;
 }
 
 li {
     padding: 5px;
 }
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+}
+
 
 .prep-time-container {
     background-color: hsl(330, 100%, 98%);
@@ -54,6 +71,7 @@ li {
 
 .prep-time-title {
     color: hsl(332, 51%, 32%);
+    padding-left: 15px;
 }
 
 table {
@@ -71,3 +89,6 @@ th, td {
 .dk-rasp {
     color: hsl(332, 51%, 32%);
 }
+
+
+
